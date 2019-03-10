@@ -1,0 +1,54 @@
+.caja {
+      width: 820px;
+    height: 620px;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    top: 50%;
+    left: 50%;
+    position: absolute;
+    transform: translate(-50%,-50%);
+    box-sizing: border-box;
+    padding: 0px 30px;
+    margin-top: 40px;
+}
+
+h1 {
+text-align: center;
+    
+}
+.colorcoment {
+background: #1c8adb;
+;
+    font-family: sans-serif;
+}
+
+.login-box input[type="submit"]
+{
+    margin-top: 10px;
+    border: none;
+    outline: none;
+    height: 40px;
+    background: #1c8adb;
+    color: #fff;
+    font-size: 18px;
+    border-radius: 20px;
+    
+}
+
+.login-box input[type="submit"]:hover
+{
+    cursor: pointer;
+    background: #39dc79;
+    color: #000;
+}
+
+.login-box input{
+    width: 20%;
+    margin-bottom: 20px;
+    margin-left: 150px;
+}
+
+.h {
+     width: 95%;
+    margin-bottom: 10px;
+}

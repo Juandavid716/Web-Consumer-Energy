@@ -1,0 +1,97 @@
+@font-face {
+    font-family: "San-Francisco-Bold";
+    src: url(font/SF-Pro-Display-Bold.otf) format("opentype");
+}
+@font-face {
+    font-family: "San-Francisco-Light";
+    src: url(font/SF-Pro-Display-Light.otf) format("opentype");
+}
+
+*{
+    box-sizing:border-box;
+    
+}
+
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+#id_img_fondo{    
+    width: 100%; ; /* en porcentaje (el highlight del foro lo trasforma) */
+    height: 100%;
+    top:0;
+    left:0;
+    position:fixed;
+    z-index: -1;   
+}
+
+h1{
+    color: #fff;
+    text-align: :center;
+}
+.form-register{
+    width: 95%;
+    max-width: 500px;
+    margin: auto;
+    background: white;
+    border-radius: 7px;
+}
+
+.form_titulo{
+  background: #0FA7E8;
+    font-family:"San-Francisco-Bold";
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    font-weight: 100;
+    font-size: 30px;
+    border-top-left-radius: 7px;
+    border-top-right-radius: 7px;
+    border-bottom: 5px solid crimson;
+}
+
+.contenedor-inputs{
+    
+    padding: 10px 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+input{
+    font-family: "San-Francisco-Light";
+    margin-bottom: 15px;
+    padding: 15px;
+    font-size: 16px;
+    border-radius: 3px;
+    border: 1px solid darkgray;
+}
+
+.input-48{
+    width: 48%;
+    
+}
+
+.input-100{
+    width: 100%;
+}
+
+.btn-enviar{
+    background: crimson;
+    color: #fff;
+    margin: auto;
+    padding: 10px 40px;
+    font-size: 20px;
+}
+
+.btn-enviar:active{
+    transform: scale(1.05);
+}
+
+.form_link{
+    width: 100%;
+    margin: 7px;
+    text-align: center;
+    font-size: 14px;
+}

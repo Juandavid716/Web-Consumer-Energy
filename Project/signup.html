@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="UTF-8">
+        <title></title>
+        <link rel="stylesheet" href="stylesignup.css">
+        <script src="validar.js"> </script>
+    </head>
+    
+    
+    <body>
+       <img src="images/cape_finisterre_atlantic_ocean_galicia_spain-wallpaper-3554x1999.jpg" id="id_img_fondo" />
+        <h1></h1>
+        <form action="registrar.php" method="post" class="form-register" onsubmit="return validar();">
+              <h2 class="form_titulo">  Crea una cuenta</h2>
+              <div class="contenedor-inputs">
+                <input type="text" id="nombre" name="nombre" placeholder="Nombre" class="input-48" required >
+                <input type="text" id="apellidos" name="apellidos" placeholder="Apellidos" class="input-48" required >
+                <input type="email" id="correo" name="correo" placeholder="Correo" class="input-100" required >
+                <input type="text" id="usuario" name="usuario" placeholder ="Usuario" class="input-48" required >
+                <input type="password" id="clave" name="clave" placeholder="Contraseña" class="input-48" required >
+                <input type="text" id="telefono" name="telefono" placeholder="Teléfono" class="input-100" required >
+                <input type="submit" value="Registrar" class="btn-enviar"> 
+                  <p class="form_link">
+                      ¿Ya tienes una cuenta? <a href="index.html">Ingresa aquí</a>
+                  </p> 
+              </div>
+        </form>
+    </body>
+</html>      
+    
